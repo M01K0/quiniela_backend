@@ -1,0 +1,9 @@
+{
+    "name":"Quiniela World Cup",
+    "version":"0.0.1",
+    "description":"API for a quiniela.",
+    "apidoc": {
+        "title": "Custom apiDoc browser title",
+        "url" : "https://api.woonkly.com/v1"
+      }
+}
