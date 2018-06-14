@@ -50,7 +50,7 @@ Once you entered the command, you need to keep open the Database server while yo
 To install Mongoose you need to open the Terminal and access to the API´s dir:
 ```sh
 $ cd backend_quiniela
-$ npm install mongoose -s
+$ npm install mongoose --s
 ```
 When you have done that, in order to user the module, you simply type in your code:
 ```sh
