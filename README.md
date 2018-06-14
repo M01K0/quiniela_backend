@@ -13,9 +13,9 @@ This API was designed by the Woonkly team in Guadalajara, Jalisco, México.
 
 In order to use this API properly, you will be needing this technologies:
 
-* [Node.js] - Cross-platform, open source runtime environment for the server layer.
+* [Node.js](https://nodejs.org/en/) - Cross-platform, open source runtime environment for the server layer.
 * [MongoDB](https://www.mongodb.com/) - Document-oriented NoSQL database system.
-* [Express] - Fast node.js network app framework.
+* [Express](http://expressjs.com/) - Fast node.js network app framework.
 * [Mongoose](http://mongoosejs.com/) - Elegant MongoDB object modeling for Node.js.
 
 ### Node.js Installation
@@ -25,7 +25,7 @@ The API requires [Node.js](https://nodejs.org/) v8+ to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ cd api
+$ cd backend_quiniela
 $ npm install -d
 $ node app
 ```
@@ -49,7 +49,7 @@ Once you entered the command, you need to keep open the Database server while yo
 ### Mongoose Instalation
 To install Mongoose you need to open the Terminal and access to the API´s dir:
 ```sh
-$ cd api
+$ cd backend_quiniela
 $ npm install mongoose -s
 ```
 When you have done that, in order to user the module, you simply type in your code:
