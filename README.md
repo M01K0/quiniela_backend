@@ -27,7 +27,7 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 $ cd backend_quiniela
 $ npm install -d
-$ node app
+$ node index.js
 ```
 
 For production environments...
