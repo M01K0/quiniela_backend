@@ -8,6 +8,18 @@ This API was designed to built a Quiniela between YouTubers. The rules that we u
 
 This API was designed by the Woonkly team in Guadalajara, Jalisco, México.
 
+### Wanting to change the database url or the server port?
+No problem, you can make changes in the API by changing the file _config.js_ in the _config_ directory.
+
+**NOTE:** You need to know the port MongoDB uses to make all the changes in the database (By default, MongoDB always uses port 27017).
+
+Example:
+```sh
+{
+    DATABASE_URL : 'mongodb://localhost:27017/my_new_db_url',
+    PORT : 8150
+}
+```
 
 ### Technologies you will be needing.
 
