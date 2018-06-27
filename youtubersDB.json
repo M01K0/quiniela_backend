@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5b29c4c92469203824688562"},"countries":[{"_id":{"$oid":"5b33e7e203be76249c4ebbd9"},"team":"Germany","place":1},{"_id":{"$oid":"5b33e7e203be76249c4ebbd8"},"team":"Mexico","place":2},{"_id":{"$oid":"5b33e7e203be76249c4ebbd7"},"team":"Spain","place":3}],"email":"test@email.com","name":"test","__v":0}
