@@ -52,7 +52,7 @@ $ cd backend_quiniela
 $ npm install mongoose --s
 ```
 When you have done that, in order to user the module, you simply type in your code:
-```sh
+```javascript
 var mongoose = require('mongoose');
 ```
 ### Want to import our existing DBs?
@@ -69,9 +69,24 @@ You can set the DB and the port in the API by changing creating a file _config.j
 **NOTE:** You need to know the port MongoDB uses to make all the changes in the database (By default, MongoDB always uses port 27017).
 
 Example:
-```sh
+```javascript
 module.exports = {
     DATABASE_URL : 'mongodb://localhost:27017/my_DB_Name',
     PORT : 8150
 }
 ```
+## APIDOC support.
+Our code has [APIDOC](http://apidocjs.com/) support, if you want to create the APIDOC, first you need to install the npm package:
+```sh
+$npm install apidoc -g
+```
+
+After that, you need to open the terminal and run this command:
+```sh
+$apidoc -i myAppDirectory -o outputDirectory/
+```
+
+* _myAppDirectory_ refers to the directory where the project is.
+* _outputDirectory_ refers to the directory where the documentation will be generated.
+
+If done correctly, in the _outPutDirectory_ a _doc_ directory will be generated; inside it you will find the _index.html_ file with all the APIDOC.
