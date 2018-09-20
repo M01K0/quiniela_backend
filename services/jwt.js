@@ -2,7 +2,7 @@
 
 var jwt = require('jwt-simple');
 var moment = require('moment');
-var secret = 'clave_secreta';
+var secret = 'clave_secreta'; //This secret word may change. With this secret keyword you will generate the token.
 
 exports.createToken = function(user){
     var payload = {

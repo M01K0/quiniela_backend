@@ -1,6 +1,6 @@
 # Quiniela World Cup - backend
 
-[![Woonkly](https://woonkly.com/img/powered_woonkly.png)](https://woonkly.com)
+[![Woonkly](https://woonkly.com/img/email-assets/powered-by.png)](https://woonkly.com)
 
 This API was designed to built a Quiniela between YouTubers. The rules that we used are:
   - The Quiniela only accepts new entries for  a limited time, in that time the YouTuber has to fill a form to be able to participate.
